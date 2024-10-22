@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+   <h3>Checkbox</h3>
+    Ação: <input type="checkbox" name="generoFilme" value="1"><br>
+    Comédia: <input type="checkbox" name="generoFilme" value="2"><br>
+
+    <h3>Radio</h3>
+    Grabiel Cunha <input type="radio" name="melhorAluno" value="1"><br>
+    joao <input type="radio" name="melhorAluno" value="2"><br>
+
+    <h3>Formulário</h3>
+    <form action="/cadastro" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="joao"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="nome@gmail.com"><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="1234"><br>
+
+
+        <input type="date" name="data"><br>
+
+        <select name="estado">
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+        </select><br><br>
+
+        <!--Dois tipos para enviar seu formulário-->    
+        <input type="submit" value="Enviar"> 
+        <button type="submit" name="Enviar">Enviar</button>
+    </form>
+</body>
+</html>
